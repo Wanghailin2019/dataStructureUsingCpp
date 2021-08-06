@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Timothy Wong/Desktop/learningC++/dataStructureUsingCpp/main.cpp
+iostream
+-
+fstream
+-
+stdlib.h
+-
+iomanip
+-
+string
+-
+
