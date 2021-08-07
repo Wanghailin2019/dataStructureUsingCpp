@@ -10,7 +10,7 @@
 
 # include<iostream>
 #include<fstream>
-#include<stdlib.h>
+//#include<stdlib.h>
 #include<iomanip>
 
 using namespace std;
