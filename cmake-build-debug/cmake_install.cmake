@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Timothy Wong/Desktop/learningC++/dataStructureUsingCpp
+# Install script for directory: C:/Users/Timothy/Desktop/C++ Datastructure/dataStructureUsingCpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Timothy Wong/Desktop/learningC++/dataStructureUsingCpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Timothy/Desktop/C++ Datastructure/dataStructureUsingCpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

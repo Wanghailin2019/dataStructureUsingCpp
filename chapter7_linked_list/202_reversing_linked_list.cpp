@@ -27,11 +27,11 @@ int main()
     struct link *p;
     node = (struct link *) malloc(sizeof(struct link));
     create(node);
-    cout<<"\n Original List is as follows:\n";
+    cout<<"\n Original List is as follows: ";
     display(node);
     p = (struct link *)malloc(sizeof(struct link));
     p = reverse(node);
-    cout<<"\n After reverse operation list is as follows:\n";
+    cout<<"\n After reverse operation list is as follows: ";
     display(p);
     return 0;
 }
@@ -68,8 +68,7 @@ void create(struct link *node)
     {
         cout<<"\nEnter the number : ";
         cin>>node->info;
-        node->next = (struct link* ) malloc(sizeof(struct
-                link));
+        node->next = (struct link* ) malloc(sizeof(struct link));
         if( i == no - 1)
             node->next = NULL;
         else

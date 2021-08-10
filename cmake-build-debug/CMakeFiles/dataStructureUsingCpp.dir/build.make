@@ -53,19 +53,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Timothy Wong\Desktop\learningC++\dataStructureUsingCpp"
+CMAKE_SOURCE_DIR = "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Timothy Wong\Desktop\learningC++\dataStructureUsingCpp\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/dataStructureUsingCpp.dir/depend.make
@@ -78,30 +78,165 @@ include CMakeFiles/dataStructureUsingCpp.dir/flags.make
 
 CMakeFiles/dataStructureUsingCpp.dir/main.cpp.obj: CMakeFiles/dataStructureUsingCpp.dir/flags.make
 CMakeFiles/dataStructureUsingCpp.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Timothy Wong\Desktop\learningC++\dataStructureUsingCpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dataStructureUsingCpp.dir/main.cpp.obj"
-	C:\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\dataStructureUsingCpp.dir\main.cpp.obj -c "C:\Users\Timothy Wong\Desktop\learningC++\dataStructureUsingCpp\main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dataStructureUsingCpp.dir/main.cpp.obj"
+	F:\MinGW-W64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\dataStructureUsingCpp.dir\main.cpp.obj -c "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\main.cpp"
 
 CMakeFiles/dataStructureUsingCpp.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dataStructureUsingCpp.dir/main.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Timothy Wong\Desktop\learningC++\dataStructureUsingCpp\main.cpp" > CMakeFiles\dataStructureUsingCpp.dir\main.cpp.i
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\main.cpp" > CMakeFiles\dataStructureUsingCpp.dir\main.cpp.i
 
 CMakeFiles/dataStructureUsingCpp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dataStructureUsingCpp.dir/main.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Timothy Wong\Desktop\learningC++\dataStructureUsingCpp\main.cpp" -o CMakeFiles\dataStructureUsingCpp.dir\main.cpp.s
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\main.cpp" -o CMakeFiles\dataStructureUsingCpp.dir\main.cpp.s
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/216_double_linked_list_creation.cpp.obj: CMakeFiles/dataStructureUsingCpp.dir/flags.make
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/216_double_linked_list_creation.cpp.obj: ../chapter7_linked_list/216_double_linked_list_creation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/216_double_linked_list_creation.cpp.obj"
+	F:\MinGW-W64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\216_double_linked_list_creation.cpp.obj -c "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\216_double_linked_list_creation.cpp"
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/216_double_linked_list_creation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/216_double_linked_list_creation.cpp.i"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\216_double_linked_list_creation.cpp" > CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\216_double_linked_list_creation.cpp.i
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/216_double_linked_list_creation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/216_double_linked_list_creation.cpp.s"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\216_double_linked_list_creation.cpp" -o CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\216_double_linked_list_creation.cpp.s
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/218_double_linked_list_insert01.cpp.obj: CMakeFiles/dataStructureUsingCpp.dir/flags.make
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/218_double_linked_list_insert01.cpp.obj: ../chapter7_linked_list/218_double_linked_list_insert01.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/218_double_linked_list_insert01.cpp.obj"
+	F:\MinGW-W64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\218_double_linked_list_insert01.cpp.obj -c "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\218_double_linked_list_insert01.cpp"
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/218_double_linked_list_insert01.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/218_double_linked_list_insert01.cpp.i"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\218_double_linked_list_insert01.cpp" > CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\218_double_linked_list_insert01.cpp.i
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/218_double_linked_list_insert01.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/218_double_linked_list_insert01.cpp.s"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\218_double_linked_list_insert01.cpp" -o CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\218_double_linked_list_insert01.cpp.s
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/220_double_linked_list_insert02.cpp.obj: CMakeFiles/dataStructureUsingCpp.dir/flags.make
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/220_double_linked_list_insert02.cpp.obj: ../chapter7_linked_list/220_double_linked_list_insert02.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/220_double_linked_list_insert02.cpp.obj"
+	F:\MinGW-W64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\220_double_linked_list_insert02.cpp.obj -c "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\220_double_linked_list_insert02.cpp"
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/220_double_linked_list_insert02.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/220_double_linked_list_insert02.cpp.i"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\220_double_linked_list_insert02.cpp" > CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\220_double_linked_list_insert02.cpp.i
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/220_double_linked_list_insert02.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/220_double_linked_list_insert02.cpp.s"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\220_double_linked_list_insert02.cpp" -o CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\220_double_linked_list_insert02.cpp.s
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/223_double_linked_list_inser03.cpp.obj: CMakeFiles/dataStructureUsingCpp.dir/flags.make
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/223_double_linked_list_inser03.cpp.obj: ../chapter7_linked_list/223_double_linked_list_inser03.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/223_double_linked_list_inser03.cpp.obj"
+	F:\MinGW-W64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\223_double_linked_list_inser03.cpp.obj -c "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\223_double_linked_list_inser03.cpp"
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/223_double_linked_list_inser03.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/223_double_linked_list_inser03.cpp.i"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\223_double_linked_list_inser03.cpp" > CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\223_double_linked_list_inser03.cpp.i
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/223_double_linked_list_inser03.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/223_double_linked_list_inser03.cpp.s"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\223_double_linked_list_inser03.cpp" -o CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\223_double_linked_list_inser03.cpp.s
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/226_double_linked_list_delete01.cpp.obj: CMakeFiles/dataStructureUsingCpp.dir/flags.make
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/226_double_linked_list_delete01.cpp.obj: ../chapter7_linked_list/226_double_linked_list_delete01.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/226_double_linked_list_delete01.cpp.obj"
+	F:\MinGW-W64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\226_double_linked_list_delete01.cpp.obj -c "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\226_double_linked_list_delete01.cpp"
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/226_double_linked_list_delete01.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/226_double_linked_list_delete01.cpp.i"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\226_double_linked_list_delete01.cpp" > CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\226_double_linked_list_delete01.cpp.i
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/226_double_linked_list_delete01.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/226_double_linked_list_delete01.cpp.s"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\226_double_linked_list_delete01.cpp" -o CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\226_double_linked_list_delete01.cpp.s
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/233_header_linked_list_insert.cpp.obj: CMakeFiles/dataStructureUsingCpp.dir/flags.make
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/233_header_linked_list_insert.cpp.obj: ../chapter7_linked_list/233_header_linked_list_insert.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/233_header_linked_list_insert.cpp.obj"
+	F:\MinGW-W64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\233_header_linked_list_insert.cpp.obj -c "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\233_header_linked_list_insert.cpp"
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/233_header_linked_list_insert.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/233_header_linked_list_insert.cpp.i"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\233_header_linked_list_insert.cpp" > CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\233_header_linked_list_insert.cpp.i
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/233_header_linked_list_insert.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/233_header_linked_list_insert.cpp.s"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\233_header_linked_list_insert.cpp" -o CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\233_header_linked_list_insert.cpp.s
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/237_circular_linked_list.cpp.obj: CMakeFiles/dataStructureUsingCpp.dir/flags.make
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/237_circular_linked_list.cpp.obj: ../chapter7_linked_list/237_circular_linked_list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/237_circular_linked_list.cpp.obj"
+	F:\MinGW-W64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\237_circular_linked_list.cpp.obj -c "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\237_circular_linked_list.cpp"
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/237_circular_linked_list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/237_circular_linked_list.cpp.i"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\237_circular_linked_list.cpp" > CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\237_circular_linked_list.cpp.i
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/237_circular_linked_list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/237_circular_linked_list.cpp.s"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\237_circular_linked_list.cpp" -o CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\237_circular_linked_list.cpp.s
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/241_linked_queue.cpp.obj: CMakeFiles/dataStructureUsingCpp.dir/flags.make
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/241_linked_queue.cpp.obj: ../chapter7_linked_list/241_linked_queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/241_linked_queue.cpp.obj"
+	F:\MinGW-W64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\241_linked_queue.cpp.obj -c "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\241_linked_queue.cpp"
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/241_linked_queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/241_linked_queue.cpp.i"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\241_linked_queue.cpp" > CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\241_linked_queue.cpp.i
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/241_linked_queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/241_linked_queue.cpp.s"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\241_linked_queue.cpp" -o CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\241_linked_queue.cpp.s
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/243_linked_stack.cpp.obj: CMakeFiles/dataStructureUsingCpp.dir/flags.make
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/243_linked_stack.cpp.obj: ../chapter7_linked_list/243_linked_stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/243_linked_stack.cpp.obj"
+	F:\MinGW-W64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\243_linked_stack.cpp.obj -c "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\243_linked_stack.cpp"
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/243_linked_stack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/243_linked_stack.cpp.i"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\243_linked_stack.cpp" > CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\243_linked_stack.cpp.i
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/243_linked_stack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/243_linked_stack.cpp.s"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\243_linked_stack.cpp" -o CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\243_linked_stack.cpp.s
 
 # Object files for target dataStructureUsingCpp
 dataStructureUsingCpp_OBJECTS = \
-"CMakeFiles/dataStructureUsingCpp.dir/main.cpp.obj"
+"CMakeFiles/dataStructureUsingCpp.dir/main.cpp.obj" \
+"CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/216_double_linked_list_creation.cpp.obj" \
+"CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/218_double_linked_list_insert01.cpp.obj" \
+"CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/220_double_linked_list_insert02.cpp.obj" \
+"CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/223_double_linked_list_inser03.cpp.obj" \
+"CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/226_double_linked_list_delete01.cpp.obj" \
+"CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/233_header_linked_list_insert.cpp.obj" \
+"CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/237_circular_linked_list.cpp.obj" \
+"CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/241_linked_queue.cpp.obj" \
+"CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/243_linked_stack.cpp.obj"
 
 # External object files for target dataStructureUsingCpp
 dataStructureUsingCpp_EXTERNAL_OBJECTS =
 
 dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/main.cpp.obj
+dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/216_double_linked_list_creation.cpp.obj
+dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/218_double_linked_list_insert01.cpp.obj
+dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/220_double_linked_list_insert02.cpp.obj
+dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/223_double_linked_list_inser03.cpp.obj
+dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/226_double_linked_list_delete01.cpp.obj
+dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/233_header_linked_list_insert.cpp.obj
+dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/237_circular_linked_list.cpp.obj
+dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/241_linked_queue.cpp.obj
+dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/243_linked_stack.cpp.obj
 dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/build.make
 dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/linklibs.rsp
 dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/objects1.rsp
 dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Timothy Wong\Desktop\learningC++\dataStructureUsingCpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable dataStructureUsingCpp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable dataStructureUsingCpp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\dataStructureUsingCpp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -114,6 +249,6 @@ CMakeFiles/dataStructureUsingCpp.dir/clean:
 .PHONY : CMakeFiles/dataStructureUsingCpp.dir/clean
 
 CMakeFiles/dataStructureUsingCpp.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Timothy Wong\Desktop\learningC++\dataStructureUsingCpp" "C:\Users\Timothy Wong\Desktop\learningC++\dataStructureUsingCpp" "C:\Users\Timothy Wong\Desktop\learningC++\dataStructureUsingCpp\cmake-build-debug" "C:\Users\Timothy Wong\Desktop\learningC++\dataStructureUsingCpp\cmake-build-debug" "C:\Users\Timothy Wong\Desktop\learningC++\dataStructureUsingCpp\cmake-build-debug\CMakeFiles\dataStructureUsingCpp.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp" "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp" "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug" "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug" "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug\CMakeFiles\dataStructureUsingCpp.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/dataStructureUsingCpp.dir/depend
 

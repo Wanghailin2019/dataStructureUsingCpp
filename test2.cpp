@@ -2,14 +2,13 @@
 // Created by Timothy Wong on 2021/8/6.
 //
 
-#include<iostream>
-//#include <string>
-using namespace std;
+#include<stdio.h>
 
 int main()
 {
-    string a1;
-    cin>>a1;
-    cout<<a1;
-    return 0;
+    int i;
+    printf("hello");
+    fflush(stdout);
+    scanf("%d",&i);
+    printf("%d",i);
 }

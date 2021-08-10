@@ -58,19 +58,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "F:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "F:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Timothy Wong\Desktop\learningC++\dataStructureUsingCpp"
+CMAKE_SOURCE_DIR = "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Timothy Wong\Desktop\learningC++\dataStructureUsingCpp\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = "C:\Users\Timothy Wong\Desktop\learningC++\dataStructureUsing
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"F:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"F:\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Timothy Wong\Desktop\learningC++\dataStructureUsingCpp\cmake-build-debug\CMakeFiles" "C:\Users\Timothy Wong\Desktop\learningC++\dataStructureUsingCpp\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug\CMakeFiles" "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Timothy Wong\Desktop\learningC++\dataStructureUsingCpp\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -142,6 +142,249 @@ dataStructureUsingCpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/build
 .PHONY : dataStructureUsingCpp/fast
 
+chapter7_linked_list/216_double_linked_list_creation.obj: chapter7_linked_list/216_double_linked_list_creation.cpp.obj
+
+.PHONY : chapter7_linked_list/216_double_linked_list_creation.obj
+
+# target to build an object file
+chapter7_linked_list/216_double_linked_list_creation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/216_double_linked_list_creation.cpp.obj
+.PHONY : chapter7_linked_list/216_double_linked_list_creation.cpp.obj
+
+chapter7_linked_list/216_double_linked_list_creation.i: chapter7_linked_list/216_double_linked_list_creation.cpp.i
+
+.PHONY : chapter7_linked_list/216_double_linked_list_creation.i
+
+# target to preprocess a source file
+chapter7_linked_list/216_double_linked_list_creation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/216_double_linked_list_creation.cpp.i
+.PHONY : chapter7_linked_list/216_double_linked_list_creation.cpp.i
+
+chapter7_linked_list/216_double_linked_list_creation.s: chapter7_linked_list/216_double_linked_list_creation.cpp.s
+
+.PHONY : chapter7_linked_list/216_double_linked_list_creation.s
+
+# target to generate assembly for a file
+chapter7_linked_list/216_double_linked_list_creation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/216_double_linked_list_creation.cpp.s
+.PHONY : chapter7_linked_list/216_double_linked_list_creation.cpp.s
+
+chapter7_linked_list/218_double_linked_list_insert01.obj: chapter7_linked_list/218_double_linked_list_insert01.cpp.obj
+
+.PHONY : chapter7_linked_list/218_double_linked_list_insert01.obj
+
+# target to build an object file
+chapter7_linked_list/218_double_linked_list_insert01.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/218_double_linked_list_insert01.cpp.obj
+.PHONY : chapter7_linked_list/218_double_linked_list_insert01.cpp.obj
+
+chapter7_linked_list/218_double_linked_list_insert01.i: chapter7_linked_list/218_double_linked_list_insert01.cpp.i
+
+.PHONY : chapter7_linked_list/218_double_linked_list_insert01.i
+
+# target to preprocess a source file
+chapter7_linked_list/218_double_linked_list_insert01.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/218_double_linked_list_insert01.cpp.i
+.PHONY : chapter7_linked_list/218_double_linked_list_insert01.cpp.i
+
+chapter7_linked_list/218_double_linked_list_insert01.s: chapter7_linked_list/218_double_linked_list_insert01.cpp.s
+
+.PHONY : chapter7_linked_list/218_double_linked_list_insert01.s
+
+# target to generate assembly for a file
+chapter7_linked_list/218_double_linked_list_insert01.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/218_double_linked_list_insert01.cpp.s
+.PHONY : chapter7_linked_list/218_double_linked_list_insert01.cpp.s
+
+chapter7_linked_list/220_double_linked_list_insert02.obj: chapter7_linked_list/220_double_linked_list_insert02.cpp.obj
+
+.PHONY : chapter7_linked_list/220_double_linked_list_insert02.obj
+
+# target to build an object file
+chapter7_linked_list/220_double_linked_list_insert02.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/220_double_linked_list_insert02.cpp.obj
+.PHONY : chapter7_linked_list/220_double_linked_list_insert02.cpp.obj
+
+chapter7_linked_list/220_double_linked_list_insert02.i: chapter7_linked_list/220_double_linked_list_insert02.cpp.i
+
+.PHONY : chapter7_linked_list/220_double_linked_list_insert02.i
+
+# target to preprocess a source file
+chapter7_linked_list/220_double_linked_list_insert02.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/220_double_linked_list_insert02.cpp.i
+.PHONY : chapter7_linked_list/220_double_linked_list_insert02.cpp.i
+
+chapter7_linked_list/220_double_linked_list_insert02.s: chapter7_linked_list/220_double_linked_list_insert02.cpp.s
+
+.PHONY : chapter7_linked_list/220_double_linked_list_insert02.s
+
+# target to generate assembly for a file
+chapter7_linked_list/220_double_linked_list_insert02.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/220_double_linked_list_insert02.cpp.s
+.PHONY : chapter7_linked_list/220_double_linked_list_insert02.cpp.s
+
+chapter7_linked_list/223_double_linked_list_inser03.obj: chapter7_linked_list/223_double_linked_list_inser03.cpp.obj
+
+.PHONY : chapter7_linked_list/223_double_linked_list_inser03.obj
+
+# target to build an object file
+chapter7_linked_list/223_double_linked_list_inser03.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/223_double_linked_list_inser03.cpp.obj
+.PHONY : chapter7_linked_list/223_double_linked_list_inser03.cpp.obj
+
+chapter7_linked_list/223_double_linked_list_inser03.i: chapter7_linked_list/223_double_linked_list_inser03.cpp.i
+
+.PHONY : chapter7_linked_list/223_double_linked_list_inser03.i
+
+# target to preprocess a source file
+chapter7_linked_list/223_double_linked_list_inser03.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/223_double_linked_list_inser03.cpp.i
+.PHONY : chapter7_linked_list/223_double_linked_list_inser03.cpp.i
+
+chapter7_linked_list/223_double_linked_list_inser03.s: chapter7_linked_list/223_double_linked_list_inser03.cpp.s
+
+.PHONY : chapter7_linked_list/223_double_linked_list_inser03.s
+
+# target to generate assembly for a file
+chapter7_linked_list/223_double_linked_list_inser03.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/223_double_linked_list_inser03.cpp.s
+.PHONY : chapter7_linked_list/223_double_linked_list_inser03.cpp.s
+
+chapter7_linked_list/226_double_linked_list_delete01.obj: chapter7_linked_list/226_double_linked_list_delete01.cpp.obj
+
+.PHONY : chapter7_linked_list/226_double_linked_list_delete01.obj
+
+# target to build an object file
+chapter7_linked_list/226_double_linked_list_delete01.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/226_double_linked_list_delete01.cpp.obj
+.PHONY : chapter7_linked_list/226_double_linked_list_delete01.cpp.obj
+
+chapter7_linked_list/226_double_linked_list_delete01.i: chapter7_linked_list/226_double_linked_list_delete01.cpp.i
+
+.PHONY : chapter7_linked_list/226_double_linked_list_delete01.i
+
+# target to preprocess a source file
+chapter7_linked_list/226_double_linked_list_delete01.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/226_double_linked_list_delete01.cpp.i
+.PHONY : chapter7_linked_list/226_double_linked_list_delete01.cpp.i
+
+chapter7_linked_list/226_double_linked_list_delete01.s: chapter7_linked_list/226_double_linked_list_delete01.cpp.s
+
+.PHONY : chapter7_linked_list/226_double_linked_list_delete01.s
+
+# target to generate assembly for a file
+chapter7_linked_list/226_double_linked_list_delete01.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/226_double_linked_list_delete01.cpp.s
+.PHONY : chapter7_linked_list/226_double_linked_list_delete01.cpp.s
+
+chapter7_linked_list/233_header_linked_list_insert.obj: chapter7_linked_list/233_header_linked_list_insert.cpp.obj
+
+.PHONY : chapter7_linked_list/233_header_linked_list_insert.obj
+
+# target to build an object file
+chapter7_linked_list/233_header_linked_list_insert.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/233_header_linked_list_insert.cpp.obj
+.PHONY : chapter7_linked_list/233_header_linked_list_insert.cpp.obj
+
+chapter7_linked_list/233_header_linked_list_insert.i: chapter7_linked_list/233_header_linked_list_insert.cpp.i
+
+.PHONY : chapter7_linked_list/233_header_linked_list_insert.i
+
+# target to preprocess a source file
+chapter7_linked_list/233_header_linked_list_insert.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/233_header_linked_list_insert.cpp.i
+.PHONY : chapter7_linked_list/233_header_linked_list_insert.cpp.i
+
+chapter7_linked_list/233_header_linked_list_insert.s: chapter7_linked_list/233_header_linked_list_insert.cpp.s
+
+.PHONY : chapter7_linked_list/233_header_linked_list_insert.s
+
+# target to generate assembly for a file
+chapter7_linked_list/233_header_linked_list_insert.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/233_header_linked_list_insert.cpp.s
+.PHONY : chapter7_linked_list/233_header_linked_list_insert.cpp.s
+
+chapter7_linked_list/237_circular_linked_list.obj: chapter7_linked_list/237_circular_linked_list.cpp.obj
+
+.PHONY : chapter7_linked_list/237_circular_linked_list.obj
+
+# target to build an object file
+chapter7_linked_list/237_circular_linked_list.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/237_circular_linked_list.cpp.obj
+.PHONY : chapter7_linked_list/237_circular_linked_list.cpp.obj
+
+chapter7_linked_list/237_circular_linked_list.i: chapter7_linked_list/237_circular_linked_list.cpp.i
+
+.PHONY : chapter7_linked_list/237_circular_linked_list.i
+
+# target to preprocess a source file
+chapter7_linked_list/237_circular_linked_list.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/237_circular_linked_list.cpp.i
+.PHONY : chapter7_linked_list/237_circular_linked_list.cpp.i
+
+chapter7_linked_list/237_circular_linked_list.s: chapter7_linked_list/237_circular_linked_list.cpp.s
+
+.PHONY : chapter7_linked_list/237_circular_linked_list.s
+
+# target to generate assembly for a file
+chapter7_linked_list/237_circular_linked_list.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/237_circular_linked_list.cpp.s
+.PHONY : chapter7_linked_list/237_circular_linked_list.cpp.s
+
+chapter7_linked_list/241_linked_queue.obj: chapter7_linked_list/241_linked_queue.cpp.obj
+
+.PHONY : chapter7_linked_list/241_linked_queue.obj
+
+# target to build an object file
+chapter7_linked_list/241_linked_queue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/241_linked_queue.cpp.obj
+.PHONY : chapter7_linked_list/241_linked_queue.cpp.obj
+
+chapter7_linked_list/241_linked_queue.i: chapter7_linked_list/241_linked_queue.cpp.i
+
+.PHONY : chapter7_linked_list/241_linked_queue.i
+
+# target to preprocess a source file
+chapter7_linked_list/241_linked_queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/241_linked_queue.cpp.i
+.PHONY : chapter7_linked_list/241_linked_queue.cpp.i
+
+chapter7_linked_list/241_linked_queue.s: chapter7_linked_list/241_linked_queue.cpp.s
+
+.PHONY : chapter7_linked_list/241_linked_queue.s
+
+# target to generate assembly for a file
+chapter7_linked_list/241_linked_queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/241_linked_queue.cpp.s
+.PHONY : chapter7_linked_list/241_linked_queue.cpp.s
+
+chapter7_linked_list/243_linked_stack.obj: chapter7_linked_list/243_linked_stack.cpp.obj
+
+.PHONY : chapter7_linked_list/243_linked_stack.obj
+
+# target to build an object file
+chapter7_linked_list/243_linked_stack.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/243_linked_stack.cpp.obj
+.PHONY : chapter7_linked_list/243_linked_stack.cpp.obj
+
+chapter7_linked_list/243_linked_stack.i: chapter7_linked_list/243_linked_stack.cpp.i
+
+.PHONY : chapter7_linked_list/243_linked_stack.i
+
+# target to preprocess a source file
+chapter7_linked_list/243_linked_stack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/243_linked_stack.cpp.i
+.PHONY : chapter7_linked_list/243_linked_stack.cpp.i
+
+chapter7_linked_list/243_linked_stack.s: chapter7_linked_list/243_linked_stack.cpp.s
+
+.PHONY : chapter7_linked_list/243_linked_stack.s
+
+# target to generate assembly for a file
+chapter7_linked_list/243_linked_stack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/243_linked_stack.cpp.s
+.PHONY : chapter7_linked_list/243_linked_stack.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -178,6 +421,33 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... dataStructureUsingCpp
+	@echo ... chapter7_linked_list/216_double_linked_list_creation.obj
+	@echo ... chapter7_linked_list/216_double_linked_list_creation.i
+	@echo ... chapter7_linked_list/216_double_linked_list_creation.s
+	@echo ... chapter7_linked_list/218_double_linked_list_insert01.obj
+	@echo ... chapter7_linked_list/218_double_linked_list_insert01.i
+	@echo ... chapter7_linked_list/218_double_linked_list_insert01.s
+	@echo ... chapter7_linked_list/220_double_linked_list_insert02.obj
+	@echo ... chapter7_linked_list/220_double_linked_list_insert02.i
+	@echo ... chapter7_linked_list/220_double_linked_list_insert02.s
+	@echo ... chapter7_linked_list/223_double_linked_list_inser03.obj
+	@echo ... chapter7_linked_list/223_double_linked_list_inser03.i
+	@echo ... chapter7_linked_list/223_double_linked_list_inser03.s
+	@echo ... chapter7_linked_list/226_double_linked_list_delete01.obj
+	@echo ... chapter7_linked_list/226_double_linked_list_delete01.i
+	@echo ... chapter7_linked_list/226_double_linked_list_delete01.s
+	@echo ... chapter7_linked_list/233_header_linked_list_insert.obj
+	@echo ... chapter7_linked_list/233_header_linked_list_insert.i
+	@echo ... chapter7_linked_list/233_header_linked_list_insert.s
+	@echo ... chapter7_linked_list/237_circular_linked_list.obj
+	@echo ... chapter7_linked_list/237_circular_linked_list.i
+	@echo ... chapter7_linked_list/237_circular_linked_list.s
+	@echo ... chapter7_linked_list/241_linked_queue.obj
+	@echo ... chapter7_linked_list/241_linked_queue.i
+	@echo ... chapter7_linked_list/241_linked_queue.s
+	@echo ... chapter7_linked_list/243_linked_stack.obj
+	@echo ... chapter7_linked_list/243_linked_stack.i
+	@echo ... chapter7_linked_list/243_linked_stack.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
