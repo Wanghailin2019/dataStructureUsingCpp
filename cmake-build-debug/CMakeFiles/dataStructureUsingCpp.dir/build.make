@@ -206,6 +206,32 @@ CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/243_linked_stack.cpp.s
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/243_linked_stack.cpp.s"
 	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter7_linked_list\243_linked_stack.cpp" -o CMakeFiles\dataStructureUsingCpp.dir\chapter7_linked_list\243_linked_stack.cpp.s
 
+CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/255_tree_creation.cpp.obj: CMakeFiles/dataStructureUsingCpp.dir/flags.make
+CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/255_tree_creation.cpp.obj: ../chapter8_tree/255_tree_creation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/255_tree_creation.cpp.obj"
+	F:\MinGW-W64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\dataStructureUsingCpp.dir\chapter8_tree\255_tree_creation.cpp.obj -c "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter8_tree\255_tree_creation.cpp"
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/255_tree_creation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/255_tree_creation.cpp.i"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter8_tree\255_tree_creation.cpp" > CMakeFiles\dataStructureUsingCpp.dir\chapter8_tree\255_tree_creation.cpp.i
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/255_tree_creation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/255_tree_creation.cpp.s"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter8_tree\255_tree_creation.cpp" -o CMakeFiles\dataStructureUsingCpp.dir\chapter8_tree\255_tree_creation.cpp.s
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/259_tree_traversal.cpp.obj: CMakeFiles/dataStructureUsingCpp.dir/flags.make
+CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/259_tree_traversal.cpp.obj: ../chapter8_tree/259_tree_traversal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/259_tree_traversal.cpp.obj"
+	F:\MinGW-W64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\dataStructureUsingCpp.dir\chapter8_tree\259_tree_traversal.cpp.obj -c "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter8_tree\259_tree_traversal.cpp"
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/259_tree_traversal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/259_tree_traversal.cpp.i"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter8_tree\259_tree_traversal.cpp" > CMakeFiles\dataStructureUsingCpp.dir\chapter8_tree\259_tree_traversal.cpp.i
+
+CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/259_tree_traversal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/259_tree_traversal.cpp.s"
+	F:\MinGW-W64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\chapter8_tree\259_tree_traversal.cpp" -o CMakeFiles\dataStructureUsingCpp.dir\chapter8_tree\259_tree_traversal.cpp.s
+
 # Object files for target dataStructureUsingCpp
 dataStructureUsingCpp_OBJECTS = \
 "CMakeFiles/dataStructureUsingCpp.dir/main.cpp.obj" \
@@ -217,7 +243,9 @@ dataStructureUsingCpp_OBJECTS = \
 "CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/233_header_linked_list_insert.cpp.obj" \
 "CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/237_circular_linked_list.cpp.obj" \
 "CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/241_linked_queue.cpp.obj" \
-"CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/243_linked_stack.cpp.obj"
+"CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/243_linked_stack.cpp.obj" \
+"CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/255_tree_creation.cpp.obj" \
+"CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/259_tree_traversal.cpp.obj"
 
 # External object files for target dataStructureUsingCpp
 dataStructureUsingCpp_EXTERNAL_OBJECTS =
@@ -232,11 +260,13 @@ dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_
 dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/237_circular_linked_list.cpp.obj
 dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/241_linked_queue.cpp.obj
 dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/243_linked_stack.cpp.obj
+dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/255_tree_creation.cpp.obj
+dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/259_tree_traversal.cpp.obj
 dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/build.make
 dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/linklibs.rsp
 dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/objects1.rsp
 dataStructureUsingCpp.exe: CMakeFiles/dataStructureUsingCpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable dataStructureUsingCpp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Timothy\Desktop\C++ Datastructure\dataStructureUsingCpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable dataStructureUsingCpp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\dataStructureUsingCpp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

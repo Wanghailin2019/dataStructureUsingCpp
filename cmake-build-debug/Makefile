@@ -385,6 +385,60 @@ chapter7_linked_list/243_linked_stack.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/243_linked_stack.cpp.s
 .PHONY : chapter7_linked_list/243_linked_stack.cpp.s
 
+chapter8_tree/255_tree_creation.obj: chapter8_tree/255_tree_creation.cpp.obj
+
+.PHONY : chapter8_tree/255_tree_creation.obj
+
+# target to build an object file
+chapter8_tree/255_tree_creation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/255_tree_creation.cpp.obj
+.PHONY : chapter8_tree/255_tree_creation.cpp.obj
+
+chapter8_tree/255_tree_creation.i: chapter8_tree/255_tree_creation.cpp.i
+
+.PHONY : chapter8_tree/255_tree_creation.i
+
+# target to preprocess a source file
+chapter8_tree/255_tree_creation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/255_tree_creation.cpp.i
+.PHONY : chapter8_tree/255_tree_creation.cpp.i
+
+chapter8_tree/255_tree_creation.s: chapter8_tree/255_tree_creation.cpp.s
+
+.PHONY : chapter8_tree/255_tree_creation.s
+
+# target to generate assembly for a file
+chapter8_tree/255_tree_creation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/255_tree_creation.cpp.s
+.PHONY : chapter8_tree/255_tree_creation.cpp.s
+
+chapter8_tree/259_tree_traversal.obj: chapter8_tree/259_tree_traversal.cpp.obj
+
+.PHONY : chapter8_tree/259_tree_traversal.obj
+
+# target to build an object file
+chapter8_tree/259_tree_traversal.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/259_tree_traversal.cpp.obj
+.PHONY : chapter8_tree/259_tree_traversal.cpp.obj
+
+chapter8_tree/259_tree_traversal.i: chapter8_tree/259_tree_traversal.cpp.i
+
+.PHONY : chapter8_tree/259_tree_traversal.i
+
+# target to preprocess a source file
+chapter8_tree/259_tree_traversal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/259_tree_traversal.cpp.i
+.PHONY : chapter8_tree/259_tree_traversal.cpp.i
+
+chapter8_tree/259_tree_traversal.s: chapter8_tree/259_tree_traversal.cpp.s
+
+.PHONY : chapter8_tree/259_tree_traversal.s
+
+# target to generate assembly for a file
+chapter8_tree/259_tree_traversal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\dataStructureUsingCpp.dir\build.make CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/259_tree_traversal.cpp.s
+.PHONY : chapter8_tree/259_tree_traversal.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -448,6 +502,12 @@ help:
 	@echo ... chapter7_linked_list/243_linked_stack.obj
 	@echo ... chapter7_linked_list/243_linked_stack.i
 	@echo ... chapter7_linked_list/243_linked_stack.s
+	@echo ... chapter8_tree/255_tree_creation.obj
+	@echo ... chapter8_tree/255_tree_creation.i
+	@echo ... chapter8_tree/255_tree_creation.s
+	@echo ... chapter8_tree/259_tree_traversal.obj
+	@echo ... chapter8_tree/259_tree_traversal.i
+	@echo ... chapter8_tree/259_tree_traversal.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

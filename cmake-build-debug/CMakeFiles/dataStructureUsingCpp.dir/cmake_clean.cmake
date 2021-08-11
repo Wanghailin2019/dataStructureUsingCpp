@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/237_circular_linked_list.cpp.obj"
   "CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/241_linked_queue.cpp.obj"
   "CMakeFiles/dataStructureUsingCpp.dir/chapter7_linked_list/243_linked_stack.cpp.obj"
+  "CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/255_tree_creation.cpp.obj"
+  "CMakeFiles/dataStructureUsingCpp.dir/chapter8_tree/259_tree_traversal.cpp.obj"
   "CMakeFiles/dataStructureUsingCpp.dir/main.cpp.obj"
   "dataStructureUsingCpp.exe"
   "dataStructureUsingCpp.exe.manifest"

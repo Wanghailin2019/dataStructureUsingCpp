@@ -107,6 +107,12 @@
 		<Unit filename="C:/Users/Timothy/Desktop/C++ Datastructure/dataStructureUsingCpp/chapter7_linked_list/243_linked_stack.cpp">
 			<Option target="dataStructureUsingCpp"/>
 		</Unit>
+		<Unit filename="C:/Users/Timothy/Desktop/C++ Datastructure/dataStructureUsingCpp/chapter8_tree/255_tree_creation.cpp">
+			<Option target="dataStructureUsingCpp"/>
+		</Unit>
+		<Unit filename="C:/Users/Timothy/Desktop/C++ Datastructure/dataStructureUsingCpp/chapter8_tree/259_tree_traversal.cpp">
+			<Option target="dataStructureUsingCpp"/>
+		</Unit>
 		<Unit filename="C:/Users/Timothy/Desktop/C++ Datastructure/dataStructureUsingCpp/main.cpp">
 			<Option target="dataStructureUsingCpp"/>
 		</Unit>
